@@ -30,3 +30,17 @@ The actual markdown above is like this:
 When you run Cypress you can pick `README.md` as a test and see the above block running.
 
 ![Hello test](./images/hello-test.png)
+
+## Site
+
+```shell
+npm start
+```
+
+Runs Vuepress generator, watches source files, generates live preview at `localhost:8080`.
+
+```shell
+npm run build
+```
+
+Generates production site in `.vuepress/dist` folder.
