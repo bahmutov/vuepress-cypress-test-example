@@ -31,6 +31,38 @@ When you run Cypress you can pick `README.md` as a test and see the above block 
 
 ![Hello test](./images/hello-test.png)
 
+### DOM
+
+You can add HTML block to act as your site during the test, for example
+
+<!-- fiddle DOM test -->
+```html
+<div data-cy="app">My app</div>
+```
+```js
+cy.get('[data-cy=app]').should('be.visible')
+```
+<!-- fiddle-end -->
+
+![DOM test](./images/dom-test.png)
+
+### Live app
+
+<!-- fiddle DOM test -->
+```html
+<div id="app">My app</div>
+```
+```js
+// "application" code
+const app = document.getElementById('app')
+setTimeout(() => {
+  app.innerText = 'Changed!'
+}, 1000)
+// test commands
+cy.contains('#app', 'Changed').should('be.visible')
+```
+<!-- fiddle-end -->
+
 ## Site
 
 ```shell
