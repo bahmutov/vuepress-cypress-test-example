@@ -1,10 +1,14 @@
 {
   "name": "vuepress-cypress-test-example",
   "version": "1.0.0",
+  "private": true,
   "description": "Vuepress static site with Cypress running tests from Markdown files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "start": "vuepress dev",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",

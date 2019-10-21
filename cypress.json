@@ -1,0 +1,6 @@
+{
+  "integrationFolder": ".",
+  "testFiles": "*.md",
+  "fixturesFolder": false,
+  "supportFile": false
+}
