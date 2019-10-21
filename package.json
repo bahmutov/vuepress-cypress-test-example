@@ -1,0 +1,24 @@
+{
+  "name": "vuepress-cypress-test-example",
+  "version": "1.0.0",
+  "description": "Vuepress static site with Cypress running tests from Markdown files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/vuepress-cypress-test-example.git"
+  },
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/vuepress-cypress-test-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/vuepress-cypress-test-example#readme",
+  "devDependencies": {
+    "@cypress/fiddle": "1.2.0",
+    "cypress": "3.4.1",
+    "vuepress": "1.2.0"
+  }
+}
