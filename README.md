@@ -48,7 +48,7 @@ cy.get('[data-cy=app]').should('be.visible')
 
 ### Live app
 
-<!-- fiddle DOM test -->
+<!-- fiddle Changing DOM example -->
 ```html
 <div id="app">My app</div>
 ```
@@ -75,4 +75,4 @@ Runs Vuepress generator, watches source files, generates live preview at `localh
 npm run build
 ```
 
-Generates production site in `.vuepress/dist` folder.
+Generates production site in `.vuepress/dist` folder. You can find deployed static site at [https://vuepress-cypress-test-example.netlify.com/](https://vuepress-cypress-test-example.netlify.com/).
