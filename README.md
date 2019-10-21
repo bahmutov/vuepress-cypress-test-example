@@ -63,6 +63,8 @@ cy.contains('#app', 'Changed').should('be.visible')
 ```
 <!-- fiddle-end -->
 
+![Changed text test](./images/changed.png)
+
 ## Site
 
 ```shell
