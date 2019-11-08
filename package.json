@@ -9,7 +9,8 @@
     "start": "vuepress dev",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "dev": "start-test 8080 cy:open"
   },
   "repository": {
     "type": "git",

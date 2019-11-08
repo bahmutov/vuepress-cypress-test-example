@@ -2,5 +2,6 @@
   "integrationFolder": ".",
   "testFiles": "*.md",
   "fixturesFolder": false,
-  "supportFile": false
+  "supportFile": false,
+  "baseUrl": "http://localhost:8080"
 }
