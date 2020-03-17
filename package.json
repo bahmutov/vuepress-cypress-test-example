@@ -23,7 +23,7 @@
   "homepage": "https://github.com/bahmutov/vuepress-cypress-test-example#readme",
   "devDependencies": {
     "@cypress/fiddle": "1.2.0",
-    "cypress": "3.4.1",
+    "cypress": "4.2.0",
     "vuepress": "1.2.0"
   }
 }
