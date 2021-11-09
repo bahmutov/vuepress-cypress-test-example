@@ -1,6 +1,6 @@
 {
   "integrationFolder": ".",
-  "testFiles": "*.md",
+  "testFiles": ["*.md", "pages/*.md"],
   "fixturesFolder": false,
   "supportFile": false
 }
