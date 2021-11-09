@@ -1,0 +1,4 @@
+[[plugins]]
+  # runs Cypress tests against the deployed URL
+  # https://github.com/cypress-io/netlify-plugin-cypress
+  package = "netlify-plugin-cypress"
