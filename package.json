@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/bahmutov/vuepress-cypress-test-example#readme",
   "devDependencies": {
-    "@cypress/fiddle": "1.2.0",
-    "cypress": "4.2.0",
+    "@cypress/fiddle": "1.19.2",
+    "cypress": "8.7.0",
     "vuepress": "1.2.0"
   }
 }

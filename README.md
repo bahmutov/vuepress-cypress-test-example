@@ -5,6 +5,10 @@
 
 ## Examples
 
+Other pages
+
+- [Second](./pages/second.md)
+
 ### Hello
 
 <!-- fiddle Hello world -->
