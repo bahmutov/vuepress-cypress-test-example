@@ -1,6 +1,9 @@
 # vuepress-cypress-test-example
 > Vuepress static site with Cypress running tests from Markdown files
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ddfc419e-c165-4a88-a2ca-61e01b65f6f3/deploy-status)](https://app.netlify.com/sites/vuepress-cypress-test-example/deploys)
+
+
 [Cypress](https://www.cypress.io) Test Runner can run tests extracted from Markdown files using [@cypress/fiddle](https://github.com/cypress-io/cypress-fiddle). [Vuepress](https://vuepress.vuejs.org/) can generate static sites from Markdown documents, just like this README file. Put them together - write Cypress examples in Markdown files, and Cypress will execute them, ensuring that they are correct.
 
 ## Examples
