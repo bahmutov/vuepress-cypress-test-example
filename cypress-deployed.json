@@ -2,5 +2,6 @@
   "integrationFolder": "cypress/integration",
   "fixturesFolder": false,
   "supportFile": false,
+  "pluginsFile": "cypress/plugins/sitemap.js",
   "baseUrl": "https://vuepress-cypress-test-example.netlify.app/"
 }

@@ -25,6 +25,7 @@
   "devDependencies": {
     "@cypress/fiddle": "1.19.2",
     "cypress": "8.7.0",
+    "got": "^11.8.2",
     "netlify-plugin-cypress": "^2.2.0",
     "vuepress": "1.8.2",
     "vuepress-plugin-sitemap": "^2.3.1",
