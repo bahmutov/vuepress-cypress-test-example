@@ -13,10 +13,10 @@ TERM = "xterm"
   # runs Cypress tests against the deployed URL
   # https://github.com/cypress-io/netlify-plugin-cypress
   package = "netlify-plugin-cypress"
-    [plugin.inputs.preBuild]
+    [plugins.inputs.preBuild]
       # run the markdown Cypress tests
       enable = true
 
-    [plugin.inputs]
-    # run the Cypress tests against the deployed URL
-    configFile = "cypress-deployed.json"
+    [plugins.inputs]
+      # run the Cypress tests against the deployed URL
+      configFile = "cypress-deployed.json"
