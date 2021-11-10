@@ -1,0 +1,6 @@
+{
+  "integrationFolder": "cypress/integration",
+  "fixturesFolder": false,
+  "supportFile": false,
+  "baseUrl": "https://vuepress-cypress-test-example.netlify.app/"
+}
