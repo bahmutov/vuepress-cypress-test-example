@@ -7,8 +7,9 @@ module.exports = async (on, config) => {
   const xml = await got(sitemapUrl).text()
   const x2js = new X2JS()
   const json = x2js.xml2js(xml)
-  const urls = json.urlset.url.map(url => url.loc)
+  const urls = json.urlset.url.map((url) => url.loc)
   console.log(urls)
+
   config.env.sitemapUrls = urls
   // make sure to return the changed config
   return config
