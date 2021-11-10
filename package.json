@@ -28,6 +28,7 @@
     "cypress-each": "^1.6.0",
     "got": "^11.8.2",
     "netlify-plugin-cypress": "^2.2.0",
+    "prettier": "^2.4.1",
     "vuepress": "1.8.2",
     "vuepress-plugin-sitemap": "^2.3.1",
     "x2js": "^3.4.2"
